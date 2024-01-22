@@ -85,7 +85,6 @@ class Coffee
     puts "\n"
     puts "I recommend a nice #{recommendation.sample}"
     puts "\n"
-    order
   end 
 
 end
