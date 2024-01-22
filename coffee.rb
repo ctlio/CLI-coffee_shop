@@ -60,11 +60,9 @@ class Coffee
     cost
   end
 
-  def cost(a, b)
+  def cost
     coffee = 2.0
-    a = coffee.to_i
-    b = number.to_i
-    total = a * b
+    total = coffee.to_i * number.to_i
     puts "\n"
     puts "Your order will cost you $#{total} dollars"
     puts "\n"
