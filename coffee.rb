@@ -70,7 +70,6 @@ class Coffee
   end
 
   def name_order
-   
     puts "May I have a name for the order?"
     self.name = gets.chomp.capitalize
     puts "\n"
